@@ -16,7 +16,7 @@
 *,
 *:after,
 *:before {
-	-moz-box-sizing: border-box;
+	-moz-box-sACizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
@@ -488,6 +488,8 @@ img {
 @media (max-width: 767px) {
 	.responsive-menu ul {
 		display: none;
+        max-height: 480px;
+        overflow: auto;
 	}
 	.responsive-menu label,
 	.responsive-menu ul li {
