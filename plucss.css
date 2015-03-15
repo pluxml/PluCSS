@@ -220,9 +220,7 @@ table {
 td,
 th {
 	border: 1px solid #bbb;
-	height: 1.9rem;
-	padding-left: .4rem;
-	padding-right: .4rem;
+	padding: .4rem;
 }
 tfoot,
 thead {
@@ -267,10 +265,8 @@ input,
 select,
 textarea {
 	border: 1px solid #bbb;
-	height: 1.9rem;
 	outline: none;
-	padding-left: .4rem;
-	padding-right: .4rem;
+	padding: .35rem .4rem;
 	width: 100%;
 }
 textarea {
@@ -432,7 +428,6 @@ img {
 }
 .menu.vertical li {
 	display: block;
-	line-height: 1.6;
 	margin-left: 0;
 }
 .menu.expanded li {
@@ -443,10 +438,7 @@ img {
 }
 .menu.expanded li a {
 	display: block;
-	height: 1.9rem;
-	line-height: 1.9rem;
-	padding-left: .4rem;
-	padding-right: .4rem;
+	padding: .425rem .4rem;
 }
 .menu.expanded li a:hover {
 	text-decoration: none;
@@ -479,7 +471,7 @@ img {
 	display: none;
 }
 .responsive-menu label {
-	padding: .25rem .4rem;
+	padding: .425rem .4rem;
 }
 .responsive-menu input[type=checkbox]:checked+ul {
 	display: block;
@@ -499,10 +491,7 @@ img {
 	}
 	.responsive-menu ul li a {
 		display: block;
-		height: 1.9rem;
-		line-height: 1.9rem;
-		padding-left: .4rem;
-		padding-right: .4rem;
+		padding: .425rem .4rem;
 	}
 	.responsive-menu ul li a:hover {
 		text-decoration: none;
@@ -559,9 +548,7 @@ img {
 .button {
 	background-color: #888;
 	color: #fff;
-	height: 1.9rem;
-	line-height: 1.9rem;
-	padding: .35rem .4rem;
+	padding: .525rem .4rem;
 }
 .button:hover {
 	background-color: #727272;
@@ -608,10 +595,7 @@ img {
 	display: block;
 	min-width: 2.2rem;
 	overflow: hidden;
-	height: 1.8rem;
-	line-height: 1.8rem;
-	padding-left: .4rem;
-	padding-right: .4rem;
+	padding: .35rem;
 	position: relative;
 	text-align: center;
 }
@@ -628,7 +612,7 @@ img {
 }
 .badge {
 	line-height: 1;
-	padding: .1rem;
+	padding: .15rem;
 }
 .menu.expanded .active a .badge {
 	background-color: #fff;
@@ -636,7 +620,6 @@ img {
 }
 .menu.vertical .badge {
 	float: right;
-	margin-top: .35rem;
 }
 .label {
 	padding: .25rem .4rem;
