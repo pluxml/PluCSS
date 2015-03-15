@@ -264,7 +264,7 @@ button,
 input,
 select,
 textarea {
-	border: 1px solid #bbb;
+	border: 1px solid #ccc;
 	outline: none;
 	padding: .35rem .4rem;
 	width: 100%;
