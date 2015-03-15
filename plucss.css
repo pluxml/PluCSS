@@ -20,10 +20,12 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+html {
+	font-size: 93.7%;
+}
 body {
 	color: #444;
 	font-family: helvetica, arial, sans-serif;
-	font-size: 93.7%;
 	line-height: 1.4;
 	margin: 0;
 }
