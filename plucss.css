@@ -20,13 +20,11 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-html {
+body {
 	color: #444;
 	font-family: helvetica, arial, sans-serif;
-	font-size: 15px;
+	font-size: 93.7%;
 	line-height: 1.4;
-}
-body {
 	margin: 0;
 }
 article,
