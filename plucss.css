@@ -219,12 +219,12 @@ table {
 }
 td,
 th {
-	border: 1px solid #bbb;
+	border: 1px solid #ccc;
 	padding: .4rem;
 }
 tfoot,
 thead {
-	background-color: #ddd;
+	background-color: #e1e1e1;
 }
 tr:hover {
 	background-color: #fff8dc;
