@@ -21,13 +21,12 @@
 	box-sizing: border-box;
 }
 html {
-	font-size: 100%;
-}
-body {
 	color: #444;
 	font-family: helvetica, arial, sans-serif;
-	font-size: .938rem;
+	font-size: 15px;
 	line-height: 1.4;
+}
+body {
 	margin: 0;
 }
 article,
