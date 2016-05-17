@@ -37,17 +37,11 @@ figure,
 footer,
 header,
 main,
+menu,
 nav,
 section,
 summary {
 	display: block;
-}
-audio,
-canvas,
-progress,
-video {
-	display: inline-block;
-	vertical-align: baseline;
 }
 audio:not([controls]) {
 	display: none;
@@ -55,6 +49,13 @@ audio:not([controls]) {
 }
 figure {
 	margin: 0;
+}
+progress {
+	vertical-align: baseline;
+}
+template,
+[hidden] {
+	display: none;
 }
 
 /* TYPOGRAPHY
@@ -64,6 +65,7 @@ a {
 	background: transparent;
 	color: #258fd6;
 	text-decoration: none;
+	-webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
@@ -72,8 +74,9 @@ a:hover {
 	text-decoration: underline;
 }
 abbr {
-	border-bottom: 1px dotted;
+	border-bottom: none;
 	cursor: help;
+	text-decoration: underline dotted;
 }
 address {
 	font-style: normal;
@@ -148,6 +151,7 @@ h6,
 }
 hr {
 	height: 0;
+	overflow: visible;
 }
 mark {
 	background: #ff0;
@@ -261,8 +265,11 @@ fieldset {
 	padding: 0;
 }
 legend {
+	display: table;
+	max-width: 100%;
 	margin-bottom: 1rem;
 	padding: 0;
+	white-space: normal;
 }
 label {
 	display: block;
@@ -303,9 +310,17 @@ textarea:focus {
 	border: 1px solid #258fd6;
 }
 button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+input {
+	overflow: visible;
+}
+button,
+select {
+	text-transform: none;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
 	background-color: #777;
 	border-color: transparent;
 	color: #fff;
@@ -313,40 +328,50 @@ input[type="submit"] {
 	padding-left: .7rem;
 	padding-right: .7rem;
 	width: auto;
-}
-button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-	background-color: #616161;
-}
-button[disabled],
-input[disabled],
-select[disabled],
-textarea[disabled],
-button[disabled]:hover,
-input[disabled]:hover,
-select[disabled]:hover,
-textarea[disabled]:hover {
-	background-color: #ddd;
-	color: #777;
-	cursor: not-allowed;
+	-webkit-appearance: button;
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
-input[type="checkbox"],
-input[type="radio"] {
+button:hover,
+[type="button"]:hover,
+[type="reset"]:hover,
+[type="submit"]:hover {
+	background-color: #616161;
+}
+[disabled],
+[disabled]:hover {
+	background-color: #ddd;
+	color: #777;
+	cursor: not-allowed;
+}
+[type="checkbox"],
+[type="radio"] {
 	height: auto;
 	padding: 0;
 	width: auto;
 }
-input[type="file"] {
-	border: none;
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
 	height: auto;
-	padding: 0;
+}
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+::-webkit-input-placeholder {
+	color: inherit;
+	opacity: 0.54;
+}
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
 }
 button.blue,
 input[type="button"].blue,
