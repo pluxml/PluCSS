@@ -21,7 +21,7 @@
 	box-sizing: border-box;
 }
 html {
-	font-size: 93.7%;
+	font-size: 100%;
 }
 body {
 	color: #444;
@@ -663,7 +663,7 @@ img {
 	float: left;
 }
 .float-center {
-	display: block;
+    display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -700,7 +700,7 @@ img {
 	max-width: 1280px;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	width: 100%;
+    width: 100%;
 }
 .grid {
 	overflow: hidden;
