@@ -173,15 +173,21 @@ optgroup {
 [disabled] {
 	cursor: not-allowed;
 }
-
-
-
-
-
-
-
-
-
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption,
+th {
+	text-align: left;
+}
+tr {
+	border-bottom: 1px solid;
+}
+td, 
+th {
+	padding: .4rem .7rem;
+}
 
 /* ---------- TYPOGRAPHY ---------- */
 
@@ -275,29 +281,11 @@ ul.unstyled-list li {
 
 /* ---------- TABLE ---------- */
 
-caption,
-th {
-	text-align: left;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-td,
-th {
-	border: 1px solid #bbb;
-	padding: .4rem .7rem;
-}
-tfoot,
-thead {
-	background-color: #e1e1e1;
+tr {
+	border-color: #bbb;
 }
 tr:hover {
-	background-color: #fff8dc;
-}
-tfoot tr:hover,
-thead tr:hover {
-	background-color: inherit;
+	background-color: #dbedf9;
 }
 .scrollable-table {
 	overflow: auto;
