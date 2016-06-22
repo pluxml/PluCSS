@@ -283,9 +283,11 @@ ul.unstyled-list li {
 
 tr {
 	border-color: #bbb;
+	transition-duration: .2s;
 }
 tr:hover {
 	background-color: #dbedf9;
+	transition-duration: .2s;
 }
 .scrollable-table {
 	overflow: auto;
@@ -316,22 +318,27 @@ select,
 textarea {
 	border: 1px solid #bbb;
 	border-radius: .3rem;
+	transition-duration: .2s;
 }
 input:focus,
 select:focus,
 textarea:focus {
 	border: 1px solid #258fd6;
+	transition-duration: .2s;
 }
 button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background-color: #777;	color: #fff;}
+	background-color: #777;	color: #fff;
+	transition-duration: .2s;
+}
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
 	background-color: #616161;
+	transition-duration: .2s;
 }
 button[disabled],
 input[disabled],
@@ -422,10 +429,12 @@ input[type="submit"].red:hover {
 }
 .menu.expanded li {
 	margin-left: 0;
+	transition-duration: .2s;
 }
 .menu.expanded li:hover {
 	border-radius: .3rem;
 	background-color: #ddd;
+	transition-duration: .2s;
 }
 .menu.expanded li a {
 	border-radius: .3rem;
