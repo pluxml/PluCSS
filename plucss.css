@@ -139,9 +139,9 @@ input::-moz-focus-inner {
 	padding: 0;
 }
 button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
 	border-color: transparent;
 	cursor: pointer;
 	padding-left: .7rem;
@@ -170,7 +170,7 @@ optgroup {
 	height: auto;
 	padding: 0;
 }
-[disabled] {
+[disabled]:hover {
 	cursor: not-allowed;
 }
 table {
