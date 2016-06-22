@@ -315,6 +315,7 @@ input,
 select,
 textarea {
 	border: 1px solid #bbb;
+	border-radius: .3rem;
 }
 input:focus,
 select:focus,
@@ -423,9 +424,11 @@ input[type="submit"].red:hover {
 	margin-left: 0;
 }
 .menu.expanded li:hover {
+	border-radius: .3rem;
 	background-color: #ddd;
 }
 .menu.expanded li a {
+	border-radius: .3rem;
 	display: block;
 	padding: .425rem .7rem;
 }
@@ -510,6 +513,7 @@ input[type="submit"].red:hover {
 	padding: 0 1rem 1rem 1rem;
 }
 .alert {
+	border-radius: .3rem;
 	margin-bottom: 1rem;
 	padding: 1rem;
 }
@@ -535,6 +539,7 @@ input[type="submit"].red:hover {
 }
 .button {
 	background-color: #777;
+	border-radius: .3rem;
 	color: #fff;
 	padding: .525rem .7rem;
 }
@@ -573,12 +578,14 @@ input[type="submit"].red:hover {
 }
 .progress {
 	background-color: #fff;
+	border-radius: .3rem;
 	border: 1px solid #bbb;
 	position: relative;
 	width: 100%;
 }
 .progress span {
 	background-color: #258fd6;
+	border-radius: .3rem;
 	color: #fff;
 	display: block;
 	min-width: 2.2rem;
@@ -594,13 +601,14 @@ input[type="submit"].red:hover {
 .badge,
 .label {
 	background-color: #258fd6;
+	border-radius: .3rem;
 	color: #fff;
 	display: inline-block;
 	margin-left: .4rem;
 }
 .badge {
 	line-height: 1;
-	padding: .15rem;
+	padding: .25rem;
 }
 .menu.expanded .active a .badge {
 	background-color: #fff;
