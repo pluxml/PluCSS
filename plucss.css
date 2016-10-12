@@ -479,7 +479,7 @@ input[type="submit"].red:hover {
 	display: block;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 47.938rem) {
 	.responsive-menu ul {
 		display: none;
 	}
@@ -957,7 +957,7 @@ input[type="submit"].red:hover {
 	padding: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
 
 	.container {
 		padding-left: 2rem;
@@ -1199,7 +1199,7 @@ input[type="submit"].red:hover {
 	}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
 
 	.container {
 		padding-left: 3rem;
