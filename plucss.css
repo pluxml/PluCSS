@@ -251,6 +251,15 @@ h6,
 .h6 {
 	font-size: 1.17rem;
 }
+.heading-large {
+	font-size: 8rem;
+}
+.heading-medium {
+	font-size: 6.5rem;
+}
+.heading-small {
+	font-size: 4rem;
+}
 .text-blue {
 	color: #258fd6;
 }
