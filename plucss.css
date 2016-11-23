@@ -53,7 +53,7 @@ kbd,
 pre,
 samp {
 	font-family: monospace;
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 details,
 main,
@@ -90,11 +90,11 @@ progress {
     vertical-align: baseline;
 }
 small {
-	font-size: 75%;
+	font-size: 1.17rem;
 }
 sub,
 sup {
-	font-size: 75%;
+	font-size: 1.17rem;
 	line-height: 0;
 	position: relative;
 	vertical-align: baseline;
@@ -103,7 +103,7 @@ sup {
 	top: -0.5rem;
 }
 sub {
-	bottom: -0.25rem;
+	bottom: -0.5rem;
 }
 svg:not(:root) {
 	overflow: hidden;
@@ -229,27 +229,27 @@ h6 {
 }
 h1,
 .h1 {
-	font-size: 2.2rem;
+	font-size: 2.5rem;
 }
 h2,
 .h2 {
-	font-size: 1.8rem;
+	font-size: 2rem;
 }
 h3,
 .h3 {
-	font-size: 1.5rem;
+	font-size: 1.67rem;
 }
 h4,
 .h4 {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 }
 h5,
 .h5 {
-	font-size: 1rem;
+	font-size: 1.33rem;
 }
 h6,
 .h6 {
-	font-size: 0.8rem;
+	font-size: 1.17rem;
 }
 .text-blue {
 	color: #258fd6;
@@ -272,7 +272,7 @@ ul.inline-list li {
 	display: inline-block;
 	list-style-type: none;
 	margin-left: .5rem;
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 ul.inline-list li:first-child {
 	margin-left: 0;
@@ -917,22 +917,22 @@ input[type="submit"].red:hover {
 	float: left;
 }
 .sml-h1 {
-	font-size: 2.2rem;
+	font-size: 2.5rem;
 }
 .sml-h2 {
-	font-size: 1.8rem;
+	font-size: 2rem;
 }
 .sml-h3 {
-	font-size: 1.5rem;
+	font-size: 1.67rem;
 }
 .sml-h4 {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 }
 .sml-h5 {
-	font-size: 1rem;
+	font-size: 1.33rem;
 }
 .sml-h6 {
-	font-size: 0.8rem;
+	font-size: 1.17rem;
 }
 .sml-text-left {
 	text-align: left;
@@ -1158,22 +1158,22 @@ input[type="submit"].red:hover {
 		float: left;
 	}
 	.med-h1 {
-		font-size: 2.2rem;
+		font-size: 2.5rem;
 	}
 	.med-h2 {
-		font-size: 1.8rem;
+		font-size: 2rem;
 	}
 	.med-h3 {
-		font-size: 1.5rem;
+		font-size: 1.67rem;
 	}
 	.med-h4 {
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 	}
 	.med-h5 {
-		font-size: 1rem;
+		font-size: 1.33rem;
 	}
 	.med-h6 {
-		font-size: 0.8rem;
+		font-size: 1.17rem;
 	}
 	.med-text-left {
 		text-align: left;
@@ -1400,22 +1400,22 @@ input[type="submit"].red:hover {
 		float: left;
 	}
 	.lrg-h1 {
-		font-size: 2.2rem;
+		font-size: 2.5rem;
 	}
 	.lrg-h2 {
-		font-size: 1.8rem;
+		font-size: 2rem;
 	}
 	.lrg-h3 {
-		font-size: 1.5rem;
+		font-size: 1.67rem;
 	}
 	.lrg-h4 {
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 	}
 	.lrg-h5 {
-		font-size: 1rem;
+		font-size: 1.33rem;
 	}
 	.lrg-h6 {
-		font-size: 0.8rem;
+		font-size: 1.17rem;
 	}
 	.lrg-text-left {
 		text-align: left;
