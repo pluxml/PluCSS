@@ -73,7 +73,7 @@ h4,
 h5,
 h6 {
 	line-height: 1;
-	margin: 2rem 0 1rem 0;
+	margin: 3rem 0 1.5rem 0;
 }
 hr {
 	height: 0;
@@ -113,7 +113,7 @@ fieldset {
 	padding: 0;
 }
 legend {
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 	padding: 0;
 }
 label {
@@ -274,7 +274,7 @@ h6,
 }
 ul.inline-list {
 	font-size: 0rem;
-	margin: 1rem 0;
+	margin: 1.5rem 0;
 	padding-left: 0;
 }
 ul.inline-list li {
@@ -310,7 +310,7 @@ tr:hover {
 /* ---------- FORM ---------- */
 
 form .col {
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 }
 form.inline-form button,
 form.inline-form input,
@@ -433,7 +433,7 @@ input[type="submit"].red:hover {
 	display: inline-block;
 	font-size: 1.5rem;
 	list-style-type: none;
-	margin-left: 1rem;
+	margin-left: 1.5rem;
 }
 .menu li:first-child {
 	margin-left: 0;
@@ -539,19 +539,19 @@ input[type="submit"].red:hover {
 
 .gallery {
 	list-style: none;
-	margin-left: -1rem;
-	margin-right: -1rem;
+	margin-left: -1.5rem;
+	margin-right: -1.5rem;
 	overflow: hidden;
 	padding-left: 0;
 }
 .gallery li {
 	float: left;
-	padding: 0 1rem 1rem 1rem;
+	padding: 0 1.5rem 1.5rem 1.5rem;
 }
 .alert {
 	border-radius: .3rem;
-	margin-bottom: 1rem;
-	padding: 1rem;
+	margin-bottom: 1.5rem;
+	padding: 1.5rem;
 }
 .alert a,
 .alert a:hover {
@@ -735,21 +735,21 @@ input[type="submit"].red:hover {
 .container {
 	margin: 0 auto;
 	max-width: 1280px;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 	width: 100%;
 }
 .grid {
 	overflow: hidden;
-	margin-left: -1rem;
-	margin-right: -1rem;
+	margin-left: -1.5rem;
+	margin-right: -1.5rem;
 }
 .col {
 	float: left;
 	position: relative;
 	min-height: 1px;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 	width: 100%;
 }
 .col.sml-1,
