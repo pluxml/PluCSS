@@ -347,15 +347,15 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background-color: #ddd;
-	color: #666;
+	background-color: #777;
+	color: #fff;
 	transition-duration: .2s;
 }
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background-color: #ccc;
+	background-color: #555;
 	transition-duration: .2s;
 }
 button[disabled],
@@ -574,14 +574,14 @@ input[type="submit"].red:hover {
 	color: #e43d29;
 }
 .button {
-	background-color: #ddd;
+	background-color: #777;
 	border-radius: .3rem;
-	color: #666;
+	color: #fff;
 	padding: .9rem .7rem;
 	transition-duration: .2s;
 }
 .button:hover {
-	background-color: #ccc;
+	background-color: #555;
 	text-decoration: none;
 	transition-duration: .2s;
 }
