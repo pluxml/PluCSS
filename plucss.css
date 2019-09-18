@@ -5,8 +5,8 @@
 #
 # Package		plucss.css
 # Version		1.3.1
-# Copyright (c)	2014-2018 PluXml
-# Authors		Jos, Stéphane F, sudwebdesign
+# Copyright (c)	2014-2019 PluXml
+# Authors		Jos, Stéphane F, sudwebdesign, Pedro "P3ter" CADETE
 # Licensed under the GPL license.
 # See http://www.gnu.org/licenses/gpl.html
 #
@@ -1206,7 +1206,7 @@ a:hover.tooltip-left span {
 	padding: 0;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 768px) {
 
 	.container {
 		padding-left: 2rem;
@@ -1448,7 +1448,7 @@ a:hover.tooltip-left span {
 	}
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 1200px) {
 
 	.container {
 		padding-left: 3rem;
