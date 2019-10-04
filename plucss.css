@@ -519,7 +519,8 @@ input[type="submit"].yellow:hover {
 	text-align: center;
 }
 #nav,/* fix old android browser (always open) */
-.responsive-menu label,.responsive-menu input[type=checkbox] { 
+.responsive-menu label,
+.responsive-menu input[type=checkbox] {
 	display: none;
 }
 .responsive-menu label {
@@ -529,12 +530,12 @@ input[type="submit"].yellow:hover {
 	padding-right: .7rem;
 }
 #nav:checked+ul#responsive-menu,/* fix old android browser */
-.responsive-menu input[type=checkbox]:checked+ul { 
+.responsive-menu input[type=checkbox]:checked+ul {
 	display: block;
 }
 
 @media (max-width: 767px) {
-	.responsive-menu { /* fix old android browser : good position*/
+	.responsive-menu {/* fix old android browser : good position*/
 		left: 0;
 		right: 0;
 	}
@@ -737,6 +738,47 @@ input[type="submit"].yellow:hover {
 .button.yellow:hover {
 	background-color: #d39e00;
 }
+/* pushed style */
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active,
+
+button.blue:active,
+input[type="button"].blue:active,
+input[type="reset"].blue:active,
+input[type="submit"].blue:active,
+
+button.green:active,
+input[type="button"].green:active,
+input[type="reset"].green:active,
+input[type="submit"].green:active,
+
+button.orange:active,
+input[type="button"].orange:active,
+input[type="reset"].orange:active,
+input[type="submit"].orange:active,
+
+button.red:active,
+input[type="button"].red:active,
+input[type="reset"].red:active,
+input[type="submit"].red:active,
+
+button.yellow:active,
+input[type="button"].yellow:active,
+input[type="reset"].yellow:active,
+input[type="submit"].yellow:active,
+
+.button:active,
+.button.blue:active,
+.button.green:active,
+.button.orange:active,
+.button.red:active,
+.button.yellow:active
+{
+	background-color: #999;
+	transition-duration: .2s;
+}
 .progress {
 	background-color: #fff;
 	border-radius: .3rem;
@@ -874,7 +916,7 @@ a.tooltip.tooltip-bottom span:after {
 	margin-left: -8px;
 	border-bottom: 8px solid #555;
 	border-right: 8px solid transparent;
-	border-left: 8px solid transparent;	
+	border-left: 8px solid transparent;
 }
 a:hover.tooltip-bottom span {
 	top: 30px;
