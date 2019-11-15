@@ -1689,3 +1689,25 @@ a:hover.tooltip-left span {
 		padding: 0;
 	}
 }
+
+@media print {
+	body {
+		padding: 0;
+		margin: 0;
+	}
+	header .sticky,
+	nav .nav,
+	aside,
+	#form {
+		display:none;
+	}
+	main .content {
+		width: 100% !important;
+	}
+	aside {
+		display: none;
+	}
+	form {
+		display: none;
+	}
+}
